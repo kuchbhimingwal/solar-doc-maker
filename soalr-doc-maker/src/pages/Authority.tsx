@@ -7,7 +7,7 @@ import FormComponent from "../components/AuthorityFormComp"; // Import the form 
 const Authority = () => {
   const handleSubmit = (data:any) => {
     // Fetch the DOCX template from the server or public folder
-    fetch("/PPAFormat.docx")
+    fetch("/authoritymodel.docx")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch document");
@@ -56,7 +56,7 @@ const Authority = () => {
     <div className="App">
       <div className="min-h-screen bg-gray-100 flex items-center justify-center">
       <div className="w-full max-w-md bg-white shadow-md rounded-lg p-6">
-      <h1 className="text-2xl font-bold mb-6 text-green-600 text-center">Fill the Form to Generate a PPA</h1>
+      <h1 className="text-2xl font-bold mb-6 text-green-600 text-center">Fill the Form to Generate a Authority letter</h1>
       <FormComponent onSubmit={handleSubmit} />
       </div>
       </div>

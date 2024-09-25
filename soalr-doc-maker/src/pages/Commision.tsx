@@ -2,12 +2,12 @@ import React from "react";
 import PizZip from "pizzip";
 import Docxtemplater from "docxtemplater";
 import { saveAs } from "file-saver";
-import FormComponent from "../components/PpaFormComp"; // Import the form you created
+import FormComponent from "../components/CommisionFormComp"; // Import the form you created
 
-const Ppa = () => {
+const Commision = () => {
   const handleSubmit = (data:any) => {
     // Fetch the DOCX template from the server or public folder
-    fetch("/ppamodel.docx")
+    fetch("/commisionmodel.docx")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch document");
@@ -32,8 +32,9 @@ const Ppa = () => {
           KW: data.KW,
           ADDRESS: data.ADDRESS,
           CONNECTIONNUMBER: data.CONNECTIONNUMBER,
+          INSTALLATIONDATE: data.INSTALLATIONDATE,
           NPNNUMBER: data.NPNNUMBER,
-          DIVISION: data.DIVISION,
+          PHONENUMBER: data.PHONENUMBER,
         });
 
         // Generate the modified docx file as a Blob
@@ -55,7 +56,7 @@ const Ppa = () => {
     <div className="App">
       <div className="min-h-screen bg-gray-100 flex items-center justify-center">
       <div className="w-full max-w-md bg-white shadow-md rounded-lg p-6">
-      <h1 className="text-2xl font-bold mb-6 text-green-600 text-center">Fill the Form to Generate a PPA</h1>
+      <h1 className="text-2xl font-bold mb-6 text-green-600 text-center">Fill the Form to Generate a Authority letter</h1>
       <FormComponent onSubmit={handleSubmit} />
       </div>
       </div>
@@ -63,4 +64,4 @@ const Ppa = () => {
   );
 };
 
-export default Ppa;
+export default Commision;

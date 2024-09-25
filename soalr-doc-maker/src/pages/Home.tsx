@@ -10,11 +10,14 @@ function Home() {
         <div className="space-y-4">
           {/* Button for About Page */}
           <Link to="/ppa">
-            <button className="w-48 py-2 px-4 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow-md">
+            <button className="w-48 py-2 px-4 mx-2 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow-md">
               Make PPA
             </button>
-            <button className="w-48 py-2 px-4 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow-md">
-              Make PPA
+          </Link>
+          {/* Button for Authority letter Page */}
+          <Link to="/authority">
+            <button className="w-48 py-2 px-4 mx-2 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow-md">
+              Make Authority letter
             </button>
           </Link>
           

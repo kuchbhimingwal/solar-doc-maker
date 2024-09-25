@@ -56,7 +56,7 @@ const Commision = () => {
     <div className="App">
       <div className="min-h-screen bg-gray-100 flex items-center justify-center">
       <div className="w-full max-w-md bg-white shadow-md rounded-lg p-6">
-      <h1 className="text-2xl font-bold mb-6 text-green-600 text-center">Fill the Form to Generate a Authority letter</h1>
+      <h1 className="text-2xl font-bold mb-6 text-green-600 text-center">Fill the Form to Generate a Commisioning report</h1>
       <FormComponent onSubmit={handleSubmit} />
       </div>
       </div>

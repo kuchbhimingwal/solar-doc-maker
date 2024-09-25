@@ -20,6 +20,16 @@ function Home() {
               Make Authority letter
             </button>
           </Link>
+          <Link to="/model">
+            <button className="w-48 py-2 px-4 mx-2 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow-md">
+              Model Aggrement
+            </button>
+          </Link>
+          <Link to="/commision">
+            <button className="w-48 py-2 px-4 mx-2 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow-md">
+              Commisioning report
+            </button>
+          </Link>
           
         </div>
       </div>

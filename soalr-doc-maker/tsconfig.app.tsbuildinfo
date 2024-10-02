@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/layout.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/authorityformcomp.tsx","./src/components/commisionformcomp.tsx","./src/components/modelformcomp.tsx","./src/components/ppaformcomp.tsx","./src/pages/authority.tsx","./src/pages/commision.tsx","./src/pages/home.tsx","./src/pages/model.tsx","./src/pages/ppa.tsx"],"version":"5.6.2"}

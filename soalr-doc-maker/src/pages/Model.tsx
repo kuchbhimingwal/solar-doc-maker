@@ -48,7 +48,7 @@ const Authority = () => {
         });
 
         // Use FileSaver to save the updated file locally
-        saveAs(out, "filled-template.docx");
+        saveAs(out, "ModelAgrement.docx");
       })
       .catch((error) => {
         console.error("Error generating the document:", error);

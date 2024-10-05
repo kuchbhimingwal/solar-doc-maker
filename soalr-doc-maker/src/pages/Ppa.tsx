@@ -43,7 +43,7 @@ const Ppa = () => {
         });
 
         // Use FileSaver to save the updated file locally
-        saveAs(out, "filled-template.docx");
+        saveAs(out, "PowerPurchase-ppa.docx");
       })
       .catch((error) => {
         console.error("Error generating the document:", error);

@@ -44,7 +44,7 @@ const AllDocs = () => {
         });
 
         // Use FileSaver to save the updated file locally
-        saveAs(out, "filled-template.docx");
+        saveAs(out, "PowerPurchase-ppa.docx");
       })
       .catch((error) => {
         console.error("Error generating the document:", error);
@@ -94,7 +94,7 @@ const AllDocs = () => {
         });
 
         // Use FileSaver to save the updated file locally
-        saveAs(out, "filled-template.docx");
+        saveAs(out, "ModelAgrement.docx");
       })
       .catch((error) => {
         console.error("Error generating the document:", error);
@@ -139,7 +139,7 @@ const AllDocs = () => {
         });
 
         // Use FileSaver to save the updated file locally
-        saveAs(out, "filled-template.docx");
+        saveAs(out, "AuthorityLetter.docx");
       })
       .catch((error) => {
         console.error("Error generating the document:", error);
@@ -184,7 +184,7 @@ const AllDocs = () => {
         });
 
         // Use FileSaver to save the updated file locally
-        saveAs(out, "filled-template.docx");
+        saveAs(out, "CommisioningReport.docx");
       })
       .catch((error) => {
         console.error("Error generating the document:", error);
@@ -227,7 +227,7 @@ const AllDocs = () => {
         });
 
         // Use FileSaver to save the updated file locally
-        saveAs(out, "filled-template.docx");
+        saveAs(out, "JoinInspection.docx");
       })
       .catch((error) => {
         console.error("Error generating the document:", error);

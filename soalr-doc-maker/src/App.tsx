@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Authority from "./pages/Authority";
 import Model from "./pages/Model"
 import Commision from "./pages/Commision";
+import Joininspection from "./pages/Joininspection";
 function App() {
   return (
     <BrowserRouter>
@@ -15,6 +16,7 @@ function App() {
           <Route path="authority" element={<Authority />} />
           <Route path="model" element={<Model />} />
           <Route path="commision" element={<Commision />} />
+          <Route path="joininspection" element={<Joininspection />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -29,6 +29,11 @@ function Home() {
               Commisioning report
             </button>
           </Link>
+          <Link to="/joininspection">
+            <button className="w-48 py-2 px-4 mx-2 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow-md">
+              Join Inspection report
+            </button>
+          </Link>
           
         </div>
       </div>

@@ -6,6 +6,7 @@ import Authority from "./pages/Authority";
 import Model from "./pages/Model"
 import Commision from "./pages/Commision";
 import Joininspection from "./pages/Joininspection";
+import AllDocs from "./pages/AllDocs";
 function App() {
   return (
     <BrowserRouter>
@@ -17,6 +18,7 @@ function App() {
           <Route path="model" element={<Model />} />
           <Route path="commision" element={<Commision />} />
           <Route path="joininspection" element={<Joininspection />} />
+          <Route path="alldocs" element={<AllDocs />} />
         </Route>
       </Routes>
     </BrowserRouter>

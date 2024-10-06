@@ -30,6 +30,8 @@ const Commision = () => {
           CUSTOMERNAME: data.CUSTOMERNAME,
           KW: data.KW,
           ADDRESS: data.ADDRESS,
+          DISTRICT: data.DISTRICT,
+          STATE: data.STATE,
           CONNECTIONNUMBER: data.CONNECTIONNUMBER,
           INSTALLATIONDATE: data.INSTALLATIONDATE,
           NPNNUMBER: data.NPNNUMBER,
